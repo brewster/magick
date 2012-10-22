@@ -1,0 +1,23 @@
+{
+  "name": "magick",
+  "version": "0.0.1",
+  "description": "ImageMagick bindings for Node.js",
+  "homepage": "https://github.com/brewster/magick",
+
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/brewster/magick"
+  },
+
+  "main": "./build/Release/magick",
+
+  "dependencies": {
+    "node-gyp": "~ 0.4.5"
+  },
+
+  "scripts": {
+    "install": "node-gyp rebuild"
+  },
+
+  "license": "MIT"
+}
